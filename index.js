@@ -8,7 +8,7 @@ const returnFirstTwoDrivers = function(array){
 
 const returnLastTwoDrivers = function(array){
   const newArray = []
-  newArray.push(array[array.length - 1])
   newArray.push(array[array.length - 2])
+  newArray.push(array[array.length - 1])
   return newArray
 }
